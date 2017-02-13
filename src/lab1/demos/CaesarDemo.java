@@ -1,4 +1,6 @@
-package lab1;
+package lab1.demos;
+
+import lab1.ciphers.Caesar;
 
 import java.util.Scanner;
 

@@ -1,8 +1,8 @@
-package lab1;
+package lab1.ciphers;
 
 public class Vigenere {
 
-    static String encode(String text, final String key) {
+    public static String encode(String text, final String key) {
         String res = "";
         text = text.toUpperCase();
         for (int i = 0, j = 0; i < text.length(); i++) {
@@ -14,7 +14,7 @@ public class Vigenere {
         return res;
     }
 
-    static String decode(String text, final String key) {
+    public static String decode(String text, final String key) {
         String res = "";
         text = text.toUpperCase();
         for (int i = 0, j = 0; i < text.length(); i++) {

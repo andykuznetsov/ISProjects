@@ -1,6 +1,6 @@
-package lab1;
+package lab1.ciphers;
 
-import java.util.*;
+import java.util.Scanner;
 
 class Substitution
 {

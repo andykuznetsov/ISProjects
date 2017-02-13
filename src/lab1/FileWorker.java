@@ -2,7 +2,7 @@ package lab1;
 
 import java.io.*;
 
-public class FileWorker{
+public class FileWorker {
 
     public static void write(String fileName, String text) throws FileNotFoundException{
         File file = new File(fileName);
